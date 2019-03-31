@@ -22,7 +22,7 @@ try:
 except:
     print("things are not good yet")
 
-firebase = firebase.FirebaseApplication('https://sih2019-f0d6c.firebaseio.com/latLong', None)
+firebase = firebase.FirebaseApplication('Firebase Link', None)
 
 imageA = cv2.imread("map - Copy.png")
 imageB = cv2.imread("map.png")
@@ -196,7 +196,7 @@ matching=(l-k)/l
 
 
 match="The value of matching percentage is "+str(matching*100)
-emails=["vermavinay982@gmail.com","vanikakansal456@gmail.com","sachinpr0001@gmail.com","pmn.bhatnagar@gmail.com","sachinpr2015@gmail.com","alankritgupta091099@gmail.com"]
+emails=["email1","email2","email3"]
 
 import smtplib, ssl
 import pandas as pd
